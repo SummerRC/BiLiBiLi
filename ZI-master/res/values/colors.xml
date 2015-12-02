@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<color name="cropimage_btn">#77777777</color>
+	<color name="quickaction_selected_bg">#77777777</color>
+	<color name="primary_text_holo_dark">#ff777777</color>
+	<color name="btn_selected_color">#028b85</color>
+	<color name="theme_color">#53c1bd</color>
+	<color name="indicator_color">#33ccc5</color>
+	<color name="pin_progress_default_circle_color">#80ffffff</color>
+    <color name="pin_progress_default_progress_color">#68cec9</color>
+    <color name="seekbar_buffer_color">#33B5E5</color>
+</resources>

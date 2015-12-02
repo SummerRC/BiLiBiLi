@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="black">#FF000000</color>
+    <color name="bilibg">#f2f2f2</color>
+    <color name= "black_alpha">#75000000</color>
+    <color name= "black_alpha2">#23000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="mediacontroller_bg_pressed">#ffefc1d9</color>
+    <color name="mediacontroller_bg">#99000000</color>
+    <color name="background_dark">#f4f4f4</color>
+    
+    <color name="blue">#ff0000ff</color>
+    <color name="green">#ff00ff00</color>
+    <color name="red">#ffff0000</color>
+    <color name="higtlight">#ff0078f0</color>
+    <color name="durationtext">#ff7d7d7d</color>
+    <color name="background">#ffc3ddea</color>
+    <color name="yellow">#ffffcc00</color>
+    <color name="title">#ff274462</color>
+    <color name="gray">#808080ff</color>
+    <color name="transparentblue">#445CACEE</color>
+    <color name="bili_red">#db77ab</color>
+    <color name="bili_red2">#efc1d9</color>
+    <color name="bili_red3">#fcf4f8</color>
+</resources>

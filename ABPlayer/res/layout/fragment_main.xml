@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+  <include layout="@layout/banner"/>
+  <RelativeLayout
+    android:id="@+id/BangumiView"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@drawable/list_selector" >
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="1dp"
+        android:text="番剧"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:focusable="false"
+        android:src="@drawable/ic_arrow_right" />
+
+</RelativeLayout>
+
+  <GridLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:columnCount="2"
+      android:rowCount="2" >
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="@drawable/card_background"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/BangumiImageView01"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp"
+                  android:src="@drawable/bili_default_image_tv_with_bg" />
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:background="@color/black_alpha"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views" />
+
+                  <TextView
+                      android:id="@+id/BangumiImageView01_baofang"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="566666" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views" />
+
+                  <TextView
+                      android:id="@+id/BangumiImageView01_danmugu"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="233333" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/BangumiTextView01"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="TextView" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="@drawable/card_background"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/BangumiImageView02"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp"
+                  android:src="@drawable/bili_default_image_tv_with_bg" />
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:background="@color/black_alpha"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views" />
+
+                  <TextView
+                      android:id="@+id/BangumiImageView02_baofang"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="TextView" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views" />
+
+                  <TextView
+                      android:id="@+id/BangumiImageView02_danmugu"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="TextView" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/BangumiTextView02"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="TextView" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="@drawable/card_background"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/BangumiImageView03"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp"
+                  android:src="@drawable/bili_default_image_tv_with_bg" />
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:background="@color/black_alpha"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views" />
+
+                  <TextView
+                      android:id="@+id/BangumiImageView03_baofang"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="TextView" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views" />
+
+                  <TextView
+                      android:id="@+id/BangumiImageView03_danmugu"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="TextView" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/BangumiTextView03"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="TextView" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="@drawable/card_background"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/BangumiImageView04"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp"
+                  android:src="@drawable/bili_default_image_tv_with_bg" />
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:background="@color/black_alpha"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views" />
+
+                  <TextView
+                      android:id="@+id/BangumiImageView04_baofang"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="TextView" />
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views" />
+
+                  <TextView
+                      android:id="@+id/BangumiImageView04_danmugu"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="TextView" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/BangumiTextView04"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="TextView" />
+      </LinearLayout>
+    
+  </GridLayout>
+  <RelativeLayout
+    android:id="@+id/DonhuaView"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@drawable/list_selector" >
+
+    <TextView
+        android:id="@+id/donghua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="1dp"
+        android:text="动画"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:focusable="false"
+        android:src="@drawable/ic_arrow_right" />
+
+</RelativeLayout>
+
+  <GridLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:columnCount="2"
+      android:rowCount="2" >
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="@drawable/card_background"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/imageView1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp"
+                  android:src="@drawable/bili_default_image_tv_with_bg" />
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:background="@color/black_alpha"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:id="@+id/imageView2"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views" />
+
+                  <TextView
+                      android:id="@+id/textView2"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="TextView" />
+
+                  <ImageView
+                      android:id="@+id/imageView3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views" />
+
+                  <TextView
+                      android:id="@+id/textView3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="TextView" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/titleTextView"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="TextView" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="@drawable/card_background"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/ImageView08"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp"
+                  android:src="@drawable/bili_default_image_tv_with_bg" />
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:background="@color/black_alpha"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:id="@+id/ImageView07"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views" />
+
+                  <TextView
+                      android:id="@+id/TextView06"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="TextView" />
+
+                  <ImageView
+                      android:id="@+id/ImageView06"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views" />
+
+                  <TextView
+                      android:id="@+id/TextView08"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="TextView" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/TextView07"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="TextView" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="@drawable/card_background"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/ImageView15"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp"
+                  android:src="@drawable/bili_default_image_tv_with_bg" />
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:background="@color/black_alpha"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:id="@+id/ImageView14"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views" />
+
+                  <TextView
+                      android:id="@+id/TextView13"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="TextView" />
+
+                  <ImageView
+                      android:id="@+id/ImageView13"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views" />
+
+                  <TextView
+                      android:id="@+id/TextView15"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="TextView" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/TextView14"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="TextView" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:background="@drawable/card_background"
+          android:orientation="vertical"
+          android:padding="2dp" >
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" >
+
+              <ImageView
+                  android:id="@+id/ImageView18"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="5dp"
+                  android:src="@drawable/bili_default_image_tv_with_bg" />
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="bottom|center_horizontal"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="5dip"
+                  android:background="@color/black_alpha"
+                  android:gravity="center"
+                  android:padding="3dp" >
+
+                  <ImageView
+                      android:id="@+id/ImageView17"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views" />
+
+                  <TextView
+                      android:id="@+id/TextView16"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="TextView" />
+
+                  <ImageView
+                      android:id="@+id/ImageView16"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/ic_info_views" />
+
+                  <TextView
+                      android:id="@+id/TextView18"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="TextView" />
+              </LinearLayout>
+          </FrameLayout>
+
+          <TextView
+              android:id="@+id/TextView17"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="TextView" />
+      </LinearLayout>
+    
+  </GridLayout>
+
+</LinearLayout>
+</ScrollView>

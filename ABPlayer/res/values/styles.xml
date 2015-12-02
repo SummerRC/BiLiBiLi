@@ -1,0 +1,139 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+	<style name="dot_style">
+        <item name="android:layout_width">5dip</item>
+        <item name="android:layout_height">5dip</item>
+        <item name="android:background">@drawable/dot_normal</item>
+        <item name="android:layout_marginLeft">1.5dip</item>
+        <item name="android:layout_marginRight">1.5dip</item>
+    </style>
+    
+	    <style name="Widget.ZI.SeekBar" parent="android:Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/scrubber_progress_horizontal_holo_dark</item>
+        <item name="android:minHeight">13dip</item>
+        <item name="android:maxHeight">13dip</item>
+        <item name="android:thumb">@drawable/scrubber_control_selector_holo</item>
+        <item name="android:thumbOffset">16dip</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+    </style>
+
+    <style name="main_tab_bottom">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <!-- <item name="android:paddingTop">5.0dip</item> -->
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <!-- <item name="android:drawablePadding">3.0dip</item> -->
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:background">@drawable/home_btn_bg</item>
+    </style>
+
+    <style name="MediaController_SeekBar">
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+        <item name="android:progressDrawable">@drawable/abcp_pink__progress_primary_holo_light</item>
+        <item name="android:thumb">@drawable/abcp_pink__scrubber_control_normal_holo</item>
+    </style>
+
+    <style name="MediaController_Text">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="InfoPanel_Container">
+        <item name="android:background">@color/mediacontroller_bg</item>
+    </style>
+
+    <style name="MediaController_Container">
+        <item name="android:background">@color/mediacontroller_bg</item>
+        <item name="android:paddingTop">4dip</item>
+        <item name="android:paddingBottom">8dip</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingRight">8dip</item>
+    </style>
+
+    <style name="MediaController_Button">
+        <item name="android:background">@drawable/mediacontroller_btn_bg</item>
+    </style>
+    
+    <style name="MyTheme" parent="AppBaseTheme">
+        <item name="vpiTabPageIndicatorStyle">@style/MyWidget.TabPageIndicator</item>
+        <item name="android:animationDuration">5000</item>
+        <item name="android:windowContentOverlay">@null</item>  
+    </style>
+    
+    <style name="MyWidget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAppearance">@style/MyTextAppearance.TabPageIndicator</item>
+        <item name="android:background">@drawable/tab_indicator</item>
+        <item name="android:actionBarTabStyle">@style/Widget.Sherlock.ActionBar.TabView</item> 
+    </style>
+
+    <style name="MyTextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@drawable/selector_tabtext</item>
+    </style>
+    
+    <style name="Themes.ActionBarTab" parent="AppBaseTheme">  
+      <!-- 去除ActionBar的Divider -->  
+      <item name="actionBarDivider">@null</item>  
+      <item name="android:actionBarDivider">@null</item>  
+        
+      <!-- 设置ActionBar Tab的高度 -->  
+      <item name="actionBarSize">45dip</item>  
+      <item name="android:actionBarSize">45dip</item>  
+        
+      <!-- 设置ActionBar Tab字体的样式 -->  
+      <item name="actionBarTabTextStyle">@style/Widget.Sherlock.ActionBar.TabText</item>  
+      <item name="android:actionBarTabTextStyle">@style/Widget.Sherlock.ActionBar.TabText</item>  
+        
+      <!-- 设置ActionBar Tab的样式,例如下面的红色指引，Tab之间的间隙等等 -->  
+      <item name="actionBarTabStyle">@style/Widget.Sherlock.ActionBar.TabView</item>  
+      <item name="android:actionBarTabStyle">@style/Widget.Sherlock.ActionBar.TabView</item>        
+  </style>  
+    
+    <style name="Widget.Sherlock.ActionBar.TabText" parent="android:Widget.Holo.ActionBar.TabText">  
+      <item name="android:textColor">@drawable/selector_tabtext</item>  
+      <item name="android:textSize">15sp</item>  
+    </style>
+    
+     <style name="Widget.Sherlock.ActionBar.TabView" parent="Widget">  
+      <item name="android:background">@drawable/tab_indicator</item>  
+      <item name="android:paddingLeft">8dip</item>  
+      <item name="android:paddingRight">8dip</item>  
+  </style>   
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/head_bg"
+    android:orientation="horizontal"
+    android:paddingLeft="4dp" >
+
+    <LinearLayout
+        android:id="@+id/logobutton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="-4dp" >
+
+        <ImageView
+            android:id="@+id/head_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/abc_ic_ab_back_holo_light" />
+
+        <ImageView
+            android:id="@+id/head_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:src="@drawable/ic_launcher" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="4dp"
+        android:text="动画"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/headTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="4dp"
+        android:layout_weight="1"
+         >
+    </ImageView>
+
+    <!--
+        <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:visibility="invisible" />
+    -->
+
+    <ImageButton
+        android:id="@+id/personCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" 
+         android:background="@drawable/abc_ic_search_api_holo_light" />
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical" />
+
+</LinearLayout>

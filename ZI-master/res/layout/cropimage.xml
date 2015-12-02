@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+	<RelativeLayout android:layout_width="match_parent"
+		android:layout_height="match_parent" android:orientation="horizontal">
+		<view class="com.yixia.zi.widget.cropimage.CropImageView"
+			android:id="@+id/image" android:background="#55000000"
+			android:layout_width="match_parent" android:layout_height="match_parent"
+			android:layout_x="0dip" android:layout_y="0dip" />
+		<RelativeLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:paddingLeft="10dip" android:paddingRight="10dip"
+			android:paddingBottom="10dip" android:layout_alignParentBottom="true"
+			android:layout_centerHorizontal="true">
+			<ImageButton android:id="@+id/save" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+				android:src="@drawable/cropimage_save" android:background="@drawable/cropimage_bg_btn"
+				android:padding="5dip" />
+			<ImageButton android:id="@+id/discard"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_toRightOf="@id/save" android:src="@drawable/cropimage_cancel"
+				android:background="@drawable/cropimage_bg_btn" android:padding="5dip" />
+			<ImageButton android:id="@+id/rotateLeft"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_toRightOf="@id/discard" android:src="@drawable/cropimage_rotate_left"
+				android:background="@drawable/cropimage_bg_btn" android:padding="5dip" />
+			<ImageButton android:id="@+id/rotateRight"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_toRightOf="@id/rotateLeft" android:src="@drawable/cropimage_rotate_right"
+				android:background="@drawable/cropimage_bg_btn" android:padding="5dip" />
+		</RelativeLayout>
+	</RelativeLayout>
+</FrameLayout>

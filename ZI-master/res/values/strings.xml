@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="zi_app_name">ZI</string>
+    <string name="cropimage_waiting">Please wait\u2026</string>
+    <string name="cropimage_wallpaper_is_setting">Applying wallpaper…</string>
+    <string name="cropimage_wallpaper_success">Wallpaper changed!</string>
+    <string name="cropimage_wallpaper_failed">Set wallpaper failed!</string>
+    <string name="cropimage_image_saving">Saving image</string>
+    <string name="cropimage_face_multiple">Multi face crop help</string>
+    <string name="cropimage_image_save">Save</string>
+    <string name="cropimage_image_discard">Discard</string>
+    <string name="cropimage_image_rotate_left">Rotate Left</string>
+    <string name="cropimage_image_rotate_right">Rotate Right</string>
+    <string name="cropimage_storage_preparing">Preparing card</string>
+    <string name="cropimage_storage_not_available">No storage card</string>
+    <string name="cropimage_storage_no_space">Not enough space</string>
+</resources>

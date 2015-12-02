@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:scrollbars="vertical" >
+
+        <include layout="@layout/banner" />
+
+        <RelativeLayout
+            android:id="@+id/BangumiView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/list_selector" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="1dp"
+                android:text="番剧"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:focusable="false"
+                android:src="@drawable/ic_arrow_right" />
+        </RelativeLayout>
+
+        <GridView
+            android:id="@+id/BangumiGridView"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="@color/bilibg"
+            android:scrollbarStyle="outsideInset"
+            android:numColumns="2">
+
+        </GridView>
+        
+        <RelativeLayout
+            android:id="@+id/DonghuaView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/list_selector" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="1dp"
+                android:text="动画"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:focusable="false"
+                android:src="@drawable/ic_arrow_right" />
+        </RelativeLayout>
+        
+        <GridView
+            android:id="@+id/DonghuaGridView"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="@color/bilibg"
+            android:scrollbarStyle="outsideInset"
+            android:numColumns="2">
+
+        </GridView>
+        
+        <RelativeLayout
+            android:id="@+id/MusicView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/list_selector" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="1dp"
+                android:text="音乐"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:focusable="false"
+                android:src="@drawable/ic_arrow_right" />
+        </RelativeLayout>
+        
+        <GridView
+            android:id="@+id/MusicGridView"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="@color/bilibg"
+            android:scrollbarStyle="outsideInset"
+            android:numColumns="2">
+        </GridView>
+        
+        <RelativeLayout
+            android:id="@+id/DanceView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/list_selector" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="1dp"
+                android:text="游戏"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:focusable="false"
+                android:src="@drawable/ic_arrow_right" />
+        </RelativeLayout>
+        
+        <GridView
+            android:id="@+id/DanceGridView"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="@color/bilibg"
+            android:scrollbarStyle="outsideInset"
+            android:numColumns="2">
+        </GridView>
+        
+        <RelativeLayout
+            android:id="@+id/EntView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/list_selector" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="1dp"
+                android:text="娱乐"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:focusable="false"
+                android:src="@drawable/ic_arrow_right" />
+        </RelativeLayout>
+        
+        <GridView
+            android:id="@+id/EntGridView"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="@color/bilibg"
+            android:scrollbarStyle="outsideInset"
+            android:numColumns="2">
+        </GridView>
+        
+        <RelativeLayout
+            android:id="@+id/MovieView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/list_selector" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="1dp"
+                android:text="电影"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:focusable="false"
+                android:src="@drawable/ic_arrow_right" />
+        </RelativeLayout>
+        
+        <GridView
+            android:id="@+id/MovieGridView"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="@color/bilibg"
+            android:scrollbarStyle="outsideInset"
+            android:numColumns="2">
+        </GridView>
+        <RelativeLayout
+            android:id="@+id/KejiView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/list_selector" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="1dp"
+                android:text="科学·技术"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:focusable="false"
+                android:src="@drawable/ic_arrow_right" />
+        </RelativeLayout>
+        
+        <GridView
+            android:id="@+id/KejiGridView"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="@color/bilibg"
+            android:scrollbarStyle="outsideInset"
+            android:numColumns="2">
+        </GridView>
+
+    </LinearLayout>
+
+</ScrollView>
